@@ -1,0 +1,52 @@
+@import './_variables.scss';
+
+
+
+.main{
+    
+   margin-top: 57px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url(../../public/images/tekstura.webp);
+    
+    
+
+    @media(min-width: 581px){
+        margin-top: 87px;   
+     }
+
+     @media(min-width: 781px){
+        margin-top:102px;  
+     }
+    
+    @media(min-width: 1024px){
+        margin-top: 0;
+        margin-left: 300px;  
+    }
+    // @media(min-width: 1921px){
+    //     margin-left: 500px;  
+    // }
+}
+
+.scrollUp{
+    position: fixed;
+    width: 40px;
+    height:  40px;
+    bottom: 10px;
+    right: 10px;
+    background-color: $primaryColor;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.5s;
+
+    .arrow{
+        height: 70%;
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+    
+}

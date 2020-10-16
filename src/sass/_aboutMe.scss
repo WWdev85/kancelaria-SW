@@ -1,0 +1,72 @@
+@import './_variables.scss';
+
+.aboutMe{
+   text-align: center;
+   width: 100%;
+   background: linear-gradient(170deg, rgba(0,0,0,0.8),rgba(0,0,0,0.6));
+   padding-bottom: 30px;
+
+   .aboutMe__title{
+      color: $primaryColor;
+   }
+   .kirp{
+       text-align: center;
+      width: 70%;
+      max-width: 300px;
+
+      @media(min-width: 768px){
+         max-width: 400px;
+      }
+
+      @media(min-width: 1200px){
+         max-width: 500px;
+      }
+
+      @media(min-width: 1024px){
+           
+      }
+    }
+
+   .text{
+      width: 90%;
+      max-width: 1000px;
+      margin: 0 auto;;
+      color: white;
+      text-align: justify;
+      font-size: 15px;
+      line-height: 30px;
+      font-family: $secondaryFont;
+      padding-bottom: 40px;
+
+      @media(min-width: 768px){
+         font-size: 18px;
+         line-height: 36px;
+            
+      }
+   
+      //  @media(min-width: 1200px){
+      //    font-size: 20px;
+      //    line-height: 40px;
+      // }
+
+      span{
+         display:inline-block;
+         width:30px;
+         font-size:20px;
+         background-color:$primaryColor;
+         color: $secondaryColor;
+         text-align: center;
+         box-shadow: -6px -6px 2px 2px white;
+   
+         @media(min-width: 768px){
+            font-size: 24px;
+            width:36px;
+         }
+   
+         // @media(min-width: 1200px){
+         //    font-size: 40px;
+         //    width: 40px;
+         // }
+      }
+   }
+}

@@ -1,0 +1,14 @@
+@import './_variables.scss';
+
+.footer{
+    background-color: black;
+    text-align: center;
+
+    .footer__text{
+        font-family: $secondaryFont;
+        font-size: 15px;
+        line-height: 60px;
+        text-decoration: none;
+        color: white;
+    }
+}

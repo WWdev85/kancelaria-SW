@@ -1,0 +1,66 @@
+{
+  "name": "kancelaria",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./app.js",
+    "start": "webpack-dev-server --config ./config/webpack.config.js",
+    "prod": "webpack --config ./config/webpack.config.prod.js",
+    "dev": "webpack --config ./config/webpack.config.js",
+    "watch": "npm run dev -- --watch"
+  },
+  "keywords": [],
+  "author": "Wojciech Wąsek",
+  "license": "ISC",
+  "devDependencies": {
+    "-": "0.0.1",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "cookie-session": "^1.4.0",
+    "copy-webpack-plugin": "^5.1.2",
+    "css-loader": "^3.6.0",
+    "express": "^4.17.1",
+    "express-mailer": "^0.3.1",
+    "file-loader": "^5.1.0",
+    "git": "^0.1.5",
+    "html-loader": "^1.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^6.0.0",
+    "jade": "^1.11.0",
+    "mini-css-extract-plugin": "^0.8.2",
+    "mongodb": "^3.6.0",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.4",
+    "pug": "^2.0.4",
+    "pug-templates": "^1.0.4",
+    "raw-loader": "^4.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "url-loader": "^4.1.0",
+    "webp-loader": "^0.6.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "email-templates": "^7.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WWdev85/kancelaria.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WWdev85/kancelaria/issues"
+  },
+  "homepage": "https://github.com/WWdev85/kancelaria#readme",
+  "description": ""
+}

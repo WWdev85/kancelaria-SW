@@ -1,0 +1,55 @@
+@import './_variables.scss';
+
+
+.rodo{
+    
+    background: linear-gradient(170deg, rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+    min-height: 80vh;
+    //background-color: $secondaryColor;
+    //border: 1px solid $secondaryColor;
+    padding: 20px;
+    text-align: justify;
+
+    .rodo__title{
+        color: $primaryColor;
+    }
+    .rodo__content{
+
+        margin: 100px auto 100px auto;
+        text-align: justify;
+        width: 90%;
+        max-width: 1000px;
+        
+        color: white;
+        font-size: 15px;
+        line-height: 30px;
+        font-family: $secondaryFont;
+        padding-bottom: 40px;
+  
+        @media(min-width: 768px){
+           font-size: 18px;
+           line-height: 36px;
+              
+        }
+     
+        //  @media(min-width: 1200px){
+        //    font-size: 20px;
+        //    line-height: 40px;
+        // }
+  
+        span{
+           display:inline-block;
+           width:30px;
+           font-size:20px;
+           background-color:$primaryColor;
+           color:$secondaryColor;
+           text-align: center;
+           box-shadow: -6px -6px 2px 2px white;
+     
+           @media(min-width: 768px){
+              font-size: 24px;
+              width:36px;
+           }
+        }
+    }
+}

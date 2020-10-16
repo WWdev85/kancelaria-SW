@@ -1,0 +1,53 @@
+@import './_main.scss';
+@import './_header.scss';
+@import './_title.scss';
+@import './_aboutMe.scss';
+@import './_offer.scss';
+@import './_specializations.scss';
+@import './_contact.scss';
+@import './_rodo.scss';
+@import './_footer.scss';
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.titles{
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: $titleFont;
+    font-weight: normal;
+    color: $secondaryColor;
+
+    @media(min-width: 480px){
+        font-size: 30px;
+        letter-spacing: 4px;
+     }
+     @media(min-width: 580px){
+        font-size: 35px;
+        letter-spacing: 5px;
+     }
+     @media(min-width: 680px){
+        font-size: 50px;
+        letter-spacing: 6px;
+     }
+     @media(min-width: 768px){
+        font-size: 60px;
+        letter-spacing: 8px;
+     }
+     @media(min-width: 1024px){
+        font-size: 50px;
+        letter-spacing: 8px;
+  
+     }
+     @media(min-width: 1200px){
+        font-size: 75px;
+        letter-spacing: 14px;
+     }
+
+}
