@@ -25,7 +25,7 @@ mailer.extend(app, {
     transportMethod: 'SMTP', // default is SMTP. Accepts anything that nodemailer accepts
     auth: {
         user: 'formularz@wasek-kancelaria.pl',
-        pass: 'Putas20'
+        pass: ''
     }
 });
 
